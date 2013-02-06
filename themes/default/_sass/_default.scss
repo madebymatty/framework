@@ -1,0 +1,37 @@
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+
+
+
+/* ========================================================================== *\
+	DEFAULT DESKTOP STYLES 
+\* ========================================================================== */		
+
+.center {
+	text-align:center;
+}
+
+
+		
+
+/* ========================================================================== *\
+   MOBILE WIDE STYLES - FROM 767 down
+\* ========================================================================== */	
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+		@include grid(12, 12, 1%);
+	}
+	
+}
+
+
+
+/* ==|== media queries ====================================================== */

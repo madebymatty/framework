@@ -1,0 +1,4 @@
+# EST MEDIA ROBOT FILE
+# SITEMAP
+SITEMAP: http://www.domain.co.uk/sitemap.xml
+

@@ -1,0 +1,94 @@
+
+	
+/* ========================================================================== *\
+   MOBILE STYLES 
+\* ========================================================================== */	
+
+@media only screen and (max-width: 767px) {
+	
+	body {
+		width: 100%;
+	}
+	
+	.sitewidth .container_12 {
+		width:100%;
+	}
+	
+	.container_12 {
+		
+		width:100%;
+	}
+
+	.container_12 .grid_12 {
+		
+	}
+	
+	.grid_12 { width:100%; display: block;}
+	
+	.grid_9 { width:100%; display: block;}
+
+	.grid_6 { width:100%; display: block;}
+
+	.grid_3 { width:100%; display: block;}
+	
+	
+	
+	.navigation {
+	 
+	   width:100%;
+	   padding:0;
+	}
+	.navigation ul {
+	   clear:left;
+	   float:left;
+	   list-style:none;
+	   margin:0;
+	   padding:0;
+	   position:relative;
+	   left:50%;
+	   text-align:center;
+	   width:100%;
+	}
+	.navigation ul li {
+	   float:none;
+	   width: 100%;
+	   margin:0;
+	}
+	.navigation ul li a {
+	    width: 100%;
+		padding: 8px 0 8px 0;
+	}
+	.navigation ul li a:hover {
+	   
+	 width: 100%;
+	}
+	.navigation ul li a.active,
+	.navigation ul li a.active:hover {
+	  width: 100%;
+	}
+	
+	.navigation ul li a {
+	font-size: 1.375em;
+	}
+
+	.post {
+	
+	}
+	
+	.post img {
+	
+
+	}
+	
+	.post .inner {
+	
+	}
+	
+	.gridbox {
+	background:#df1322;
+	}
+		
+}
+
+
+

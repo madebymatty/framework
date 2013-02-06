@@ -1,0 +1,178 @@
+
+	
+/* ========================================================================== *\
+   GRID STYLES 
+\* ========================================================================== */	
+
+.container {
+	@include container(true);
+}
+
+.col-1 {
+	@include grid(12, 1, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-2 {
+	@include grid(12, 2, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-3 {
+	@include grid(12, 3, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-4 {
+	@include grid(12, 4, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-5 {
+	@include grid(12, 5, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-6 {
+	@include grid(12, 6, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-7 {
+	@include grid(12, 7, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-8 {
+	@include grid(12, 8, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-9 {
+	@include grid(12, 9, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+.col-10 {
+	@include grid(12, 10, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-11 {
+	@include grid(12, 11, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-12 {
+	@include grid(12, 12, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+
+.nested-1 {
+	@include grid(4, 1, 2%, false, true);
+	text-align: center;
+	background:#ccc;
+	line-height:80px;
+}
+
+.nested-2 {
+	@include grid(4, 1, 2%, false, false, true);
+	text-align: center;
+	background:#ccc;
+	line-height:80px;
+}
+
+.nested {
+	@include grid(4, 1, 2%);
+	text-align: center;
+	background:#ccc;
+	line-height:80px;
+}
+
+.nested-4 {
+	@include grid(4, 1, 3.2%);
+	text-align: center;
+	background:#ccc;
+	line-height:80px;
+}
+
+.nested-3 {
+	@include grid(4, 3, 2%);
+	text-align: center;
+	background:#ccc;
+	line-height:80px;
+}
+
+.nested-66 {
+	@include grid(2, 1, 6%, false, true, true);
+	text-align: center;
+	background:#ccc;
+	line-height:80px;
+}
+
+.col-12-both {
+	@include grid(12, 12, 1%, false, true, true);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-12-right {
+	@include grid(12, 12, 1%, false, false, true);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-12-left {
+	@include grid(12, 12, 1%, false, true, false);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-6-both {
+	@include grid(12, 6, 1%, false, true, true);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-6-left {
+	@include grid(12, 6, 1%, false, false, true);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+
+.col-16 {
+	@include grid(16, 2, 1%);
+	text-align: center;
+	background:#f1f1f1;
+	line-height:80px;
+}
+

@@ -1,0 +1,60 @@
+/* ========================================================================== *\
+   GRID SYSTEM
+\* ========================================================================== */
+
+ /* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+@mixin container (
+	$full
+) {
+	@if $full {
+		max-width: $sitewidth;
+	}
+	clear: both;
+	
+}
+
+@mixin grid (
+	$total,
+	$cols, 
+	$margin, 
+	$pad: false,
+	$pad-left: false,
+	$pad-right: false
+) {
+	
+
+	
+	float: left;
+
+	@if $pad-left and $pad-right {
+		width: 100% / $total * $cols;
+	} @elseif $pad-right and $pad-left == false {
+		width: 100% / $total * $cols - ( $margin*1 );
+	} @elseif $pad-left and $pad-right == false {
+		width: 100% / $total * $cols - ( $margin*1 );
+	} @else {
+		width: 100% / $total * $cols - ( $margin*2 );
+	}
+	
+	@if $pad-left or $pad {
+		margin-left: 0%;
+	} @else {
+		margin-left: $margin;
+	}
+	
+	@if $pad-right or $pad {
+		margin-right: 0%;
+	} @else {
+		margin-right: $margin;
+	}
+	
+	box-sizing: border-box;
+}

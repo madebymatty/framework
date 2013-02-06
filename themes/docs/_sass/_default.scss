@@ -1,0 +1,105 @@
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+
+
+
+/* ========================================================================== *\
+	DEFAULT DESKTOP STYLES 
+\* ========================================================================== */		
+
+body {
+	background: #ededed;
+}
+
+.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix{height:1%}
+
+.header {
+	width:100%;
+	background: #1c1c1c;
+}		
+
+.header ul {
+	margin:0;
+	padding:0;
+}
+
+.header ul li {
+	margin:0;
+	padding:0;
+	list-style: none;
+
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+
+	
+}
+
+	.header ul li a {
+	color: #777;
+	text-decoration: none;
+	padding-left:2%;
+	padding-right:2%;
+	display:block;
+	height:75px;	
+	float:left;
+	padding-top:27px;
+	}
+	
+	.header ul li a:hover {
+	color: #f1f1f1;
+	text-decoration: none;
+	background:#222;
+	}
+	
+.logo {
+color:#f1f1f1;
+line-height:75px;
+font-family: 'Open Sans', sans-serif;
+font-size: 23px;
+background:#d83121;
+text-align:center;
+}
+img {display: block;
+width: 100%;height: 75px;}
+
+.heading h1 {
+font-family: 'Open Sans', sans-serif;
+font-size: 30px;
+color:#282828;
+font-weight: normal;
+border-bottom: 2px solid #e0e0e0;
+padding-bottom:10px;
+}
+
+/* ========================================================================== *\
+   MOBILE WIDE STYLES - FROM 767 down
+\* ========================================================================== */	
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+		@include grid(12, 12, 1%);
+	}
+	
+	li a{
+		width:100%;
+		display:block;
+		text-align:center;
+	}
+	
+	.logo {
+		text-align:center;
+	}
+	
+}
+
+
+
+/* ==|== media queries ====================================================== */

@@ -1,0 +1,57 @@
+/* ========================================================================== *\
+   FONT FACE STYLES - START
+\* ========================================================================== */
+
+	@font-face {
+		font-family: 'FranklinGothic';
+		src: url('../fonts/franklin_gothic-webfont.eot');
+		src: local('☺'), url('../fonts/franklin_gothic-webfont.woff') format('woff'), url('../fonts/franklin_gothic-webfont.ttf') format('truetype'), url('../fonts/franklin_gothic-webfont.svg#FranklinGothic') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		line-height: normal;
+		-webkit-font-smoothing: antialiased;
+	}
+	
+	@font-face {
+		font-family: 'LeagueGothic';
+		src: url('../fonts/league_gothic.eot');
+		src: local('☺'), url('../fonts/league_gothic.woff') format('woff'), url('../fonts/league_gothic.ttf') format('truetype'), url('../fonts/league_gothic.svg#LeagueGothic') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		line-height: normal;
+		-webkit-font-smoothing: antialiased;
+	}
+	
+	@font-face {
+  font-family: 'Vollkorn2';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Vollkorn'), url('http://themes.googleusercontent.com/font?kit=_3YMy3W41J9lZ9YHm0HVxA') format('truetype');
+  font-weight: normal;
+		font-style: normal;
+		line-height: normal;
+  -webkit-font-smoothing: antialiased;
+}
+		
+	@font-face {
+		font-family: 'VollkornReg';
+		src: url('../fonts/vollkorn-regular-webfont.eot');
+		src: local('☺'), url('../fonts/vollkorn-regular-webfont.woff') format('woff'), url('../fonts/vollkorn-regular-webfont.ttf') format('truetype'), url('../fonts/vollkorn-regular-webfont.svg#VollkornReg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		line-height: normal;
+		-webkit-font-smoothing: antialiased;
+	}
+		
+	@font-face {
+		font-family: 'juraregular';
+		src: url('../fonts/jura-regular-webfont.eot');
+		src: local('☺'), url('../fonts/jura-regular-webfont.woff') format('woff'), url('../fonts/jura-regular-webfont.ttf') format('truetype'), url('../fonts/jura-regular-webfont.svg#juraregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		line-height: normal;
+		-webkit-font-smoothing: antialiased;
+	}
+/* ========================================================================== *\
+   FONT FACE STYLES - END
+\* ========================================================================== */
