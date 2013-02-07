@@ -856,26 +856,21 @@ header h2 {
    MOBILE WIDE STYLES - FROM 767 down
 \* ========================================================================== */
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  /* line 55, ../_sass/_default.scss */
+  /*
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-    float: left;
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
-    box-sizing: border-box;
+  	@include grid(12, 12, 1%);
   }
-
-  /* line 59, ../_sass/_default.scss */
-  li a {
-    width: 100%;
-    display: block;
-    text-align: center;
+  
+  li a{
+  	width:100%;
+  	display:block;
+  	text-align:center;
   }
-
-  /* line 65, ../_sass/_default.scss */
+  
   .logo {
-    text-align: center;
+  	text-align:center;
   }
+  */
 }
 /* ==|== media queries ====================================================== */
 /*

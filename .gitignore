@@ -1,0 +1,28 @@
+### OSX ###
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+
+
+### Windows ###
+Thumbs.db
+Desktop.ini
+
+
+
+### SublimeText ###
+*.sublime-workspace
+
+
+
+### CodeIgniter ###
+cache/*
+cache/!index.html
+
+
+
+### SASS ###
+.sass-cache
+compass_app_log.txt
