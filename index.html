@@ -23,7 +23,7 @@
 	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" /> 
 	
 	<!-- CSS - Start -->
-	<link rel="stylesheet" href="themes/default/css/styles.css"> 
+	<link rel="stylesheet" href="themes/docs/css/styles.css"> 
 	<!-- CSS - End -->
 	
 	<!-- Modernizr for non html5 browsers -->
@@ -51,167 +51,106 @@
 <body>
 	
 
-	
-	<!-- CONTENT HERE -->
-	<div class="container center">
-		<h1>MW Grid</h1>
-		<h2>12 Columns</h2>
-	</div>
-	
 	<div class="container">
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-		<div class="col-1">1</div>
-	</div>
+		<!-- CONTENT HERE -->
+		<header class="col-12">
+			<hgroup>
+				<h1>MW Framework Documentation</h1>
+				<h2>A simple easy to use base to start each project from.</h2>
+			</hgroup>
+		</header>
 	
-	<div class="container">
-		<div class="col-2">2</div>
-		<div class="col-2">2</div>
-		<div class="col-2">2</div>
-		<div class="col-2">2</div>
-		<div class="col-2">2</div>
-		<div class="col-2">2</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-3">3</div>
-		<div class="col-3">3</div>
-		<div class="col-3">3</div>
-		<div class="col-3">3</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-4">4</div>
-		<div class="col-4">4</div>
-		<div class="col-4">4</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-5">5</div>
-		<div class="col-5">5</div>
-		<div class="col-2">2</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-6">6</div>
-		<div class="col-6">6</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-7">7</div>
-		<div class="col-5">5</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-8">8</div>
-		<div class="col-2">2</div>
-		<div class="col-2">2</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-9">9</div>
-		<div class="col-3">3</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-10">10</div>
-		<div class="col-2">2</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-11">11</div>
-		<div class="col-1">1</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-12">12</div>
-	</div>
-	
-	<div class="container center">
-		<h2>12 Columns - Nested</h2>
-	</div>
-	
-	<div class="container">
-		<div class="col-6">
-			<div class="container">
-				<div class="nested-1">1</div>
-				<div class="nested">2</div>
-				<div class="nested">3</div>
-				<div class="nested-2">4</div>
-			</div>
-			<div class="container">
-				<div class="nested-3">3</div>
-				<div class="nested">1</div>
-			</div>
+		<section>
+			<article class="main col-12">
+			
+				<h1>Introduction</h1>
+				
+				<p>The MW Framework is a basic/simple CSS/HTML5 framework to use as a starting point for web projects. Developed in Sass which is an extension of CSS3, adding nested rules, variables, mixins, selector inheritance, and more.</p>
+					
+				<p>This framework aims to be fully responsive down to mobile, supporting browsers from IE8 up (IE7-6 hacks might be added at some point in the future).</p>
+				
+				<p>The MW Frameowrk uses the JQuery JavaScript library to make writing JavaScript functionaility simpler.</p>
+				
+				<p>Note that this is a work in progress and the specification could change along the way.</p>
+				
+			</article>
+			
+			<article class="main col-12">
+			
+				<h1>Folder Structure</h1>
+				
+				<p>The idea behind the folder structure is to keep the framework files seperate from the specific project files. You could even have multiple theme folders for redesigns for example. The frameowrk folder shouldn't need any changes the only changes would take place in the theme folders.</p>
+					
+				<ul>
+					<li>framework
+						<ul>
+							<li>_sass
+								<ul>
+									<li>_base.scss</li>
+									<li>_grid.scss</li>
+									<li>_normalize.scss</li>
+									<li>_variables.scss</li>
+								</ul>
+							</li>
+							<li>img</li>
+							<li>js
+								<ul>
+									<li>libs</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>themes
+						<ul>
+							<li>your_theme_folder
+								<ul>
+									<li>_sass
+										<ul>
+											<li>_default.scss</li>
+											<li>_fonts.scss</li>
+											<li>_grid.scss</li>
+											<li>_mobile.scss</li>
+											<li>_settings.scss</li>
+											<li>_tablet.scss</li>
+											<li>_variables.scss</li>
+											<li>styles.scss</li>
+										</ul>
+									</li>
+									<li>css</li>
+									<li>img</li>
+									<li>js</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>.htaccess</li>
+					<li>config.rb</li>
+					<li>sample.html</li>
+				</ul>
+					
+			</article>
+			
+			<article class="main col-12">
+			
+				<h1>Grid</h1>
+				
+				<p>The aim is to create a fully responsive grid using percentages using box-sizing a CSS property that incorporates the padding into the width of the element. This means we can have four elements on 25% to make up 100% while adding padding too.</p>
+				
+				<p></p>
+				
+				
+			</article>
+			
+		</section>
 		
-		</div>
-		<div class="col-6">6</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-4">
-			<div class="container">
-				<div class="nested-4">1</div>
-				<div class="nested-4">2</div>
-				<div class="nested-4">3</div>
-				<div class="nested-4">4</div>
-			</div>
-		</div>
-		<div class="col-8">8</div>
-	</div>
-	
-	<div class="container">
-		<div class="col-2">
-			<div class="container">
-				<div class="nested-66">1</div>
-				<div class="nested-66">2</div>
-			</div>
-		</div>
-		<div class="col-10">10</div>
-	</div>
-	
-	<div class="container center">
-		<h2>12 Columns - Remove Padding</h2>
-	</div>
-	
-	<div class="container">
-		<div class="col-12-both">12</div>
-		<div class="col-12-right">12</div>
-		<div class="col-12-left">12</div>
-		
-		<div class="col-6">6</div>
-		<div class="col-6-both">6</div>
-	</div>
-	
-	<div class="container center">
-		<h2>16 Columns</h2>
-	</div>
-	
-	<div class="container">
-		<div class="col-16">2</div>
-		<div class="col-16">2</div>
-		<div class="col-16">2</div>
-		<div class="col-16">2</div>
-		
-		<div class="col-16">2</div>
-		<div class="col-16">2</div>
-		<div class="col-16">2</div>
-		<div class="col-16">2</div>
+		<footer>
+			<p>&nbsp;</p>
+		</footer>
 	</div>
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="framework/js/libs/jquery-1.9.0.min.js"><\/script>')</script>
-	<script src="themes/default/js/main.js"></script>
-
+	<script src="themes/docs/js/main.js"></script>
 	    
 </body>
 </html>
